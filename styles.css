@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lancelot&family=Poppins:ital,wght@0,400;1,700&family=Roboto:wght@400;700&family=Urbanist:wght@100&display=swap');
+
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lancelot', serif;
+}
+
+body{
+    width:100%;
+    min-height: 87.9vh;
+    background: linear-gradient(135deg, #153667,#4e085f);
+}
+.card h2{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 3rem;
+    word-spacing:20px;
+    margin-bottom: 50px;
+}
+
+.card{
+    width:90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: whitesmoke;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search input{
+    border:0;
+    outline:0;
+    background: #ebfffc;
+    color:#555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex:1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border:0;
+    outline:0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width:60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+.search button img{
+    width:16px;
+}
+
+
+.weather-icon{
+    width:170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width:60px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+
+.humidity, .Wind{
+        font-size: 20px;
+        margin-top: -6px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.weather {
+    display: none;
+}
+
+.error{
+    /* border:2px solid none;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color:red; */
+    text-align: left;
+    margin-left:10px;
+    font-size: 25px;
+    margin-top: 20px;
+    display: none;
+}
