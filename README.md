@@ -1,5 +1,4 @@
 # Weather-Wiz
-Weather Wiz is a web-based weather forecasting application  or webpage that provides accurate and up-to-date weather information for locations worldwide. Stay informed about current conditions, hourly forecasts, and extended outlooks with Weather Wiz. Simple, reliable, and essential for planning your day.
 
 ## Overview
 Weather Wiz is your go-to destination for accurate and reliable weather forecasting. Stay informed about current conditions and upcoming forecasts with this intuitive web application. Easily track weather updates for your location and around the globe. Simple, sleek, and essential for weather enthusiasts.
